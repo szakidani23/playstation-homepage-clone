@@ -1,0 +1,707 @@
+/*HERO*/
+
+#section-hero {
+  display:flex;
+  align-items: center;
+  background-image: url(images/hero_right_col_star_wars.webp);
+  background-position: center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  padding: 12% 7%;
+}
+
+.hero img {
+  width:42%;
+}
+
+.hero h2 {
+  font-weight:400;
+  margin:30px 0;
+}
+
+.hero p {
+  margin-bottom:40px;
+  width:53%;
+  line-height: 26px;
+  font-size:19px;
+}
+
+.read-more-btn {
+  background-color:#0070CC;
+  padding:16px 18px;
+  border-radius:36px;
+  color:#fff;
+  border:none;
+  position: relative;
+  font-size:18px;
+  font-weight:600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.read-more-btn::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 3px solid transparent;
+  transition: all 0.1s;
+  border-radius:36px;
+}
+
+.read-more-btn:hover::before {
+  border-color: #0070CC;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius:36px;
+}
+
+/*PS5 CONSOLE SECTION*/
+
+.ps5-line-images {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
+  margin-top:-80px;
+}
+
+.ps5-line-images img {
+  width:260px;
+  border-radius: 20px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.ps5-line-images img:first-child {
+  border: 3px solid #0070CC;
+  transition: all ease-in-out 0.2s;
+}
+
+.ps5-line-images img:first-child:hover {
+  margin-top:-15px;
+  box-shadow: 0px 15px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ps5-line-images img:not(:first-child) {
+  opacity:0.6;
+  transition: all ease-in-out 0.2s;
+}
+
+.ps5-line-images img:not(:first-child):hover {
+  opacity: 1;
+  margin-top:-15px;
+  box-shadow: 0px 15px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ps5-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ps5-left-col h3 {
+  font-weight: 400;
+}
+
+.ps5-left-col p {
+  font-size:24px;
+  margin: 35px 0;
+  width:70%;
+  line-height:30px;
+  color:#000000be;
+  font-weight:400;
+}
+
+.ps5-right-col img {
+  margin-right:100px;
+}
+
+.ps5-undertheline-images {
+  display:flex;
+  justify-content: space-between;
+  align-items:baseline;
+}
+
+.ps5-undertheline-images img {
+  width:250px;
+  height:225px;
+  border-radius: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.image-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  transition: all ease-in-out 0.3s;
+  margin-bottom: 40px;
+}
+
+.image-container:hover {
+  opacity: 1;
+}
+
+.image-container p {
+  width:80%;
+  text-align: center;
+}
+
+.image-container-first {
+  border:3px solid #0070CC;
+  border-radius: 30px;
+  padding: 0 12px 30px 12px;
+  opacity: 1;
+}
+
+/*PS PLUS SECTION*/
+
+#section-ps-plus {
+  background-image: url(images/ps-plus-monthly-games-banner.webp);
+  background-size:cover;
+  background-position:center;
+}
+
+.ps-plus-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ps-plus-left img {
+  width:50%;
+}
+
+.ps-plus-left p {
+  margin: 35px 0;
+  width:75%;
+  line-height:30px;
+}
+
+.ps-plus-right img {
+  width:85%;
+  margin: 60px 0;
+}
+
+/*FEEL THE NEW REAL SECTION*/
+
+#section-feel-the-new-real {
+  background-image:url(images/feel-new-the-real.webp);
+  background-size:cover;
+  background-position: center;
+}
+
+.feel-the-new-real-container {
+  padding: 14.2rem 0;
+}
+
+.feel-the-new-real-container h2,
+.feel-the-new-real-container p {
+  color:#fff;
+}
+
+.feel-the-new-real-container h2 {
+  font-weight:400;
+}
+
+.feel-the-new-real-container p {
+  margin: 35px 0;
+  width:40%;
+  line-height:30px;
+}
+
+.further-info-btn {
+  background-color: #fff;
+  padding:16px 18px;
+  border-radius:36px;
+  color: #000;
+  border:none;
+  position: relative;
+  font-size:18px;
+  font-weight:600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.further-info-btn::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 3px solid transparent;
+  transition: all 0.1s;
+  border-radius:36px;
+}
+
+.further-info-btn:hover::before {
+  border-color: #fff;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius:36px;
+}
+
+/*IN THIS MONTH SECTION*/
+
+#section-in-this-month {
+  background-image: url(images/in-this-month-bg.webp);
+  background-position:center;
+  background-size: cover;
+}
+
+.in-this-month-first-col{
+  padding: 90px 0 55px 0;
+  display:block;
+}
+
+.in-this-month-first-col h2,
+.in-this-month-first-col span {
+  color:#fff;
+  font-size: 42px;
+  transform: scaleY(1.1);
+  line-height:58px;
+}
+
+.in-this-month-first-col span {
+  font-weight:400;
+}
+
+.in-this-month-first-col p {
+  margin: 35px 0;
+  color:#ffffffd4;
+  font-size: 24px;
+  width:53%;
+  line-height:35px;
+}
+
+.in-this-month-second-col {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itm-image-block {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.itm-image-block img {
+  width:470px;
+  height:260px;
+  border-radius: 22px;
+  object-fit: cover;
+  box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.2s;
+  transform-origin: center;
+}
+
+.itm-image-block img:hover {
+  transform: scale(1.02);
+  box-shadow: 15px 15px 21px rgba(0, 0, 0, 0.5);
+}
+
+.itm-image-block h4 {
+  color:#fff;
+  margin: 30px 0 60px 0;
+  font-weight:400; 
+  text-align: center;
+}
+
+/*GOD OF WAR*/
+
+#section-god-of-war {
+  background-image: linear-gradient(to right, #00000060, #00000000) , url(images/god-of-war-bg.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.god-of-war-container {
+  display:block;
+}
+
+.god-of-war-container img {
+  width: 32%;
+  margin-top: 9.5rem;
+}
+
+.god-of-war-container h2 {
+  font-weight:400;
+  color:#fff;
+  margin: 36px 0;
+  width:40%;
+  line-height: 60px;
+  transform: scaleY(1.1);
+}
+
+.god-of-war-container p {
+  color: #fff;
+  width:40%;
+  line-height:30px;
+}
+
+.buy-it-now-btn {
+  background-color: #d63d00;
+  padding:16px 18px;
+  border-radius:36px;
+  color: #fff;
+  border:none;
+  position: relative;
+  font-size:18px;
+  font-weight:600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin: 40px 0;
+}
+
+.buy-it-now-btn::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 3px solid transparent;
+  transition: all 0.1s;
+  border-radius:36px;
+}
+
+.buy-it-now-btn:hover::before {
+  border-color: #d63d00;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius:36px;
+}
+
+/*NEW APPEARANCES*/
+
+#section-new-appearances {
+  background-color: #181818;
+  padding-bottom: 5rem;
+}
+
+.new-app-title-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.new-app-title {
+  display:block;
+}
+
+.new-app-title h3,
+.new-app-title p {
+  color: #fff;
+}
+
+.new-app-title h3 {
+  font-size:22px;
+  margin-bottom: 18px;
+}
+
+.new-app-title p {
+  font-size: 24px;
+}
+
+.new-app-arrows {
+  display:flex;
+  gap: 10px;
+}
+
+.new-app-arrows button{
+  background-color:white;
+  border:none;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 28px;
+  position:relative;
+  cursor:pointer;
+}
+
+.new-app-arrows button::before {
+  position: absolute;
+  border: 3px solid transparent;
+  transition: all 0.1s;
+  border-radius:50%;
+}
+
+.new-app-arrows button:hover::before {
+  border-color: #fff;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  content:"";
+}
+
+.new-app-image-gallery {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 45px;
+}
+
+.new-app-image img {
+  width: 225px;
+  height: 225px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform ease-in-out 0.3s;
+}
+
+.new-app-image img:hover {
+  transform: scale(1.03);
+}
+
+.new-app-image p {
+  color: #fff;
+  margin-top: 1rem;
+  margin-left: 4px;
+}
+
+/*DISCOVER PS4*/
+
+.discover-title-block {
+  display:block;
+  text-align: center;
+}
+
+.discover-title-block h2 {
+  transform: scaleY(1.1);
+  font-weight:400;
+  margin: 50px 0 32px 0;
+}
+
+.discover-title-block p {
+  font-size: 24px;
+  color: #000000c1;
+}
+
+.ps-equipments-container {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3.5rem;
+  margin: 3rem 4.5rem;
+}
+
+.equipment {
+  display:block;
+}
+
+.discover-img {
+  width:120%;
+}
+
+.ps-vr-img {
+  width:87%;
+  margin-left:2rem;
+}
+
+.equipment h2 {
+  font-weight: 400;
+}
+
+.equipment p {
+  font-size: 24px;
+  margin: 40px 0;
+  color: #000000c1;
+}
+
+.ps-store-deal-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:4rem;
+  padding:5rem 0 3.5rem 0;
+}
+
+.ps-store-deal-left {
+  display: block;
+}
+
+.ps-store-deal-left img {
+  width:75%;
+}
+
+.ps-store-deal-left h2 {
+  font-weight: 400;
+  margin: 20px 0 35px 0;
+  line-height:58px;
+}
+
+.ps-store-deal-left p {
+  color: #000000c1;
+  font-size:20px;
+}
+
+.ps-store-deal-right img {
+  width:1070px;
+  border-radius:20px;
+  transition:all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.ps-store-deal-right img:hover {
+  transform: scale(1.02);
+}
+
+/*Follow us*/
+
+#section-follow-us {
+  background-color: #f3f3f3;
+}
+
+.title-follow-us h3 {
+  font-weight: 300;
+  text-align: center;
+  padding: 3.5rem 0 6rem 0;
+  transform: scaleY(1.1);
+}
+
+.follow-us-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  padding-bottom: 10rem;
+}
+
+.follow-us-icons i {
+  font-size: 8em;
+  color:#181818dd;
+  cursor:pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.follow-us-icons i:hover {
+  transform: scale(1.02);
+}
+
+/*Footer*/
+
+footer {
+  background-color: rgb(0, 67, 156);
+  padding: 2% 4.5%;
+}
+
+.logo-line-footer {
+  display:block;
+}
+
+.logo-line-footer img {
+  width:22%;
+}
+
+footer hr {
+  opacity: 0.5;
+  margin: 20px 0 8px 0;
+}
+
+.footer-menu-container {
+  display:flex;
+  justify-content:left;
+  align-items:first baseline;
+}
+
+.footer-menu {
+  display:flex;
+  flex-direction: column;
+  margin: 1.8rem 6.5rem 1.8rem 0;
+}
+
+
+.footer-menu h4 {
+  font-size:18px;
+  margin-bottom:12px;
+}
+
+.footer-menu h4,
+.footer-menu a {
+  color:#fff;
+}
+
+.footer-menu a:hover {
+  opacity:0.75;
+}
+
+.footer-menu a {
+  margin-bottom:12px;
+}
+
+.footer-social-icons i {
+  display:inline-flex;
+  margin:0 13px 16px 10px;
+  color:#fff;
+  font-size: 30px;
+  cursor:pointer;
+}
+
+.footer-social-icons i:hover {
+  opacity:0.75;
+}
+
+.sony-logo-div img {
+  width:18%;
+}
+
+.sony-logo-div p span {
+  text-decoration: underline;
+  cursor: pointer;
+  color:white;
+}
+
+.sony-logo-div p {
+  font-size:16px;
+  line-height:26px;
+  margin-top:5px;
+  color:white;
+}
+
+.language-officials {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top:22px;
+}
+
+.language-div {
+  display:flex;
+  gap:12px;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+}
+
+.language-officials i,p,a {
+  color:white;
+}
+
+.fa-earth-europe {
+  font-size:30px;
+}
+
+.language-officials a:hover {
+  opacity:0.75;
+}
+
